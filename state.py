@@ -1,12 +1,12 @@
 class State:
 
-  def __init__(self, positions, g):
+  def __init__(self, positions):
     """
     Positions: Dictionary mapping strings ("X", "A", etc) to tuples (row,col).
     e.g. {"X": (0,0), "Y": (2,2), ...}
     """
     self.positions = positions
-    self.g = g
+    self.g = 0
 
   def get_positions(self):
     """
@@ -42,6 +42,7 @@ class State:
     Returns a new state where the pod has been moved in direction dir.
     REQUIRES: (pod,dir) is a valid move.
     """
+    self.g += 1
     pass
 
   def is_solved(self):
