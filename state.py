@@ -5,7 +5,13 @@ class State:
     Positions: Dictionary mapping strings ("X", "A", etc) to tuples (row,col).
     e.g. {"X": (0,0), "Y": (2,2), ...}
     """
-    pass
+    self.positions = positions
+
+  def get_positions(self):
+    """
+    Returns dictionary of pods to positions tuple
+    """
+    return self.positions
 
   def get_moves(self):
     """
@@ -26,4 +32,4 @@ class State:
     """
     Returns true if the game has been solved, i.e. "X" is at position (2,2)
     """
-    pass
+    return self.positions['X'] == (2,2)
