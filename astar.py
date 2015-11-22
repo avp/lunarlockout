@@ -1,4 +1,5 @@
 from pq import PriorityQueue
+from writer import writeResultToFile
 
 def runAStar(start_dict, h):
 
@@ -16,6 +17,7 @@ def runAStar(start_dict, h):
     if state.is_solved():
       print("found answer")
       print(popped)
+      writeResultToFile("astar_results.txt", start_state, popped)
       return
     moves = state.get_moves()
     for move in moves:
