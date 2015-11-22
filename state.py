@@ -29,6 +29,13 @@ class State:
   def __ne__(self, other):
     return not self.__eq__(other)
 
+  def __repr__(self):
+    result = [['-' for x in xrange(5)] for x in xrange(5)]
+    for pod, (r,c) in self.positions.iteritems():
+      result[r][c] = pod
+    result[2].append('   g = %d' % self.g)
+    return '\n'.join([''.join(row) for row in result])
+
   def get_moves(self):
     """
     Returns:
@@ -38,6 +45,8 @@ class State:
     DELTAS = {'U': (-1, 0), 'D': (1, 0), 'L': (0, -1), 'R': (0, 1)}
     occupied = set(self.positions.values())
     def can_move(pod, dir):
+      if pod not in self.positions:
+        return None
       (dr,dc) = DELTAS[dir]
       (r0,c0) = self.positions[pod]
       for i in xrange(2, 5): # Start at 2 because not moving is pointless
@@ -53,7 +62,7 @@ class State:
       for dir in ('U', 'D', 'L', 'R'):
         move = can_move(pod, dir)
         if move:
-          moves.append(move)
+          moves.append((pod, move))
     return moves
 
   def make_move(self, (pod, pos)):
@@ -74,3 +83,12 @@ class State:
     Returns true if the game has been solved, i.e. "X" is at position (2,2)
     """
     return self.positions['X'] == (2,2)
+
+if __name__ == '__main__':
+  state1 = State({'X': (0,0), 'A': (0,3)})
+  print 'State 1:'
+  print state1
+  moves = state1.get_moves()
+  state2 = state1.make_move(moves[0])
+  print 'State 2:'
+  print state2
