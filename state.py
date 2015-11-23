@@ -1,12 +1,13 @@
 class State:
 
-  def __init__(self, positions, g=0):
+  def __init__(self, positions, g=0, previous=None):
     """
     Positions: Dictionary mapping strings ("X", "A", etc) to tuples (row,col).
     e.g. {"X": (0,0), "Y": (2,2), ...}
     """
     self.positions = positions
     self.g = g
+    self.previous = previous
 
   def get_positions(self):
     """
@@ -19,6 +20,12 @@ class State:
     Returns number of moves to this state
     """
     return self.g
+
+  def get_previous(self):
+    """
+    Returns the previous State that got to this state
+    """
+    return self.previous
 
   def __eq__(self, other):
     return (
@@ -76,7 +83,7 @@ class State:
         positions[a] = pos
       else:
         positions[a] = b
-    return State(positions, self.g + 1)
+    return State(positions, g=self.g + 1, previous=self)
 
   def is_solved(self):
     """
