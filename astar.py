@@ -1,7 +1,8 @@
 from pq import PriorityQueue
-from writer import writeResultToFile
+from logger import log_result
+from state import State
 
-def runAStar(start_dict, h):
+def run_astar(start_dict, h):
 
   def get_f(state):
     return h(state) + state.get_g()
@@ -15,13 +16,14 @@ def runAStar(start_dict, h):
     state = q.get()
     popped += 1
     if state.is_solved():
-      print("found answer")
-      print(popped)
-      writeResultToFile("astar_results.txt", start_state, popped)
+      log_result("astar_results.txt", start_state, popped, h)
       return
     moves = state.get_moves()
+    print(state)
+    print(h(state))
     for move in moves:
       q.put(state.make_move(move))
+  print("failed to solve")
 
 
 

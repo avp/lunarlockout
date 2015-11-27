@@ -1,0 +1,14 @@
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+manhattan_distance
+19371
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+free_moves_to_center
+25726

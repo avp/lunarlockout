@@ -6,10 +6,11 @@ class PriorityQueue(object):
     self.fVisited = {}
 
   def put(self, new_state):
-    if new_state in fVisited:
-      index = self.pq.index(state)
-      if index > -1 and self.f(self.pq[index]) > self.f(new_state):
-        self.fVisited[new_state] = self.f(new_state)
+    if new_state in self.fVisited:
+      if new_state in self.pq:
+        index = self.pq.index(new_state)
+        if self.f(self.pq[index]) > self.f(new_state):
+          self.fVisited[new_state] = self.f(new_state)
     else:
       insertion_index = len(self.pq)
       for index, state in enumerate(self.pq):
@@ -18,7 +19,7 @@ class PriorityQueue(object):
         if (new_f < old_f):
           insertion_index = index
           break
-      self.pq.insert(insertion_index, new_node)
+      self.pq.insert(insertion_index, new_state)
       self.fVisited[new_state] = self.f(new_state)
 
   def empty(self):

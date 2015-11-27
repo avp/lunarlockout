@@ -91,6 +91,9 @@ class State:
     """
     return self.positions['X'] == (2,2)
 
+  def __hash__(self):
+    return hash(frozenset(self.positions.items()))
+
 if __name__ == '__main__':
   state1 = State({'X': (0,0), 'A': (0,3)})
   print 'State 1:'
