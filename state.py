@@ -1,6 +1,6 @@
 class State:
 
-  def __init__(self, positions, g=0, previous=None):
+  def __init__(self, positions, g=0, previous=None, move=None):
     """
     Positions: Dictionary mapping strings ("X", "A", etc) to tuples (row,col).
     e.g. {"X": (0,0), "Y": (2,2), ...}
@@ -8,6 +8,7 @@ class State:
     self.positions = positions
     self.g = g
     self.previous = previous
+    self.move = move
 
   def get_positions(self):
     """
@@ -27,6 +28,12 @@ class State:
     """
     return self.previous
 
+  def get_move(self):
+    """
+    Returns the move used to get to this State
+    """
+    return self.move
+
   def __eq__(self, other):
     return (
         isinstance(other, self.__class__) and
@@ -42,6 +49,26 @@ class State:
       result[r][c] = pod
     result[2].append('   g = %d' % self.g)
     return '\n'.join([''.join(row) for row in result])
+
+  def __hash__(self):
+    return hash(frozenset(self.positions.items()))
+
+  def get_path(self):
+    """
+    Returns: ([states], [moves])
+    where states is the list of states to get to this state
+          moves is the list of moves to get to this state
+    Note: moves[i] is the move used to get from states[i-1] to states[i]
+    """
+    states = []
+    moves = []
+    cur_state = self
+    cur_move = None
+    while cur_state is not None:
+      states.insert(0, cur_state)
+      moves.insert(0, cur_state.get_move())
+      cur_state = cur_state.get_previous()
+    return (states, moves)
 
   def get_moves(self):
     """
@@ -83,7 +110,7 @@ class State:
         positions[a] = pos
       else:
         positions[a] = b
-    return State(positions, g=self.g + 1, previous=self)
+    return State(positions, g=self.g + 1, previous=self, move=(pod, pos))
 
   def is_solved(self):
     """
@@ -91,14 +118,14 @@ class State:
     """
     return self.positions['X'] == (2,2)
 
-  def __hash__(self):
-    return hash(frozenset(self.positions.items()))
-
 if __name__ == '__main__':
   state1 = State({'X': (0,0), 'A': (0,3)})
   print 'State 1:'
   print state1
   moves = state1.get_moves()
-  state2 = state1.make_move(moves[0])
+  state2 = state1.make_move(('X', (0,2)))
   print 'State 2:'
   print state2
+  print 'Moves:'
+  states, moves = state2.get_path()
+  print '\n'.join(map(str, states))
