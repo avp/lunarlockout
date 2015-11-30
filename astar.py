@@ -16,7 +16,7 @@ def run_astar(start_dict, h):
     state = q.get()
     popped += 1
     if state.is_solved():
-      log_result("astar_results.txt", start_state, popped, h)
+      log_result("astar_results.txt", start_state, state, popped, h)
       return
     moves = state.get_moves()
     print(state)
