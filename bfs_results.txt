@@ -1,0 +1,70 @@
+***************************
+Start State:
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Number of Popped States: 19
+***************************
+***************************
+Start State:
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Number of Popped States: 19
+***************************
+***************************
+Start State:
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Number of Popped States: 19
+***************************
+***************************
+Start State:
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Number of Popped States: 949
+***************************
+***************************
+Start State: medium level
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Number of Popped States: 949
+***************************
+***************************
+Start State: medium level
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Number of Popped States: 949
+***************************
+***************************
+Start State: medium level
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Number of Popped States: 949
+***************************

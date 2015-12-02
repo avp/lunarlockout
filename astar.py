@@ -2,7 +2,7 @@ from pq import PriorityQueue
 from logger import log_result
 from state import State
 
-def run_astar(start_dict, h):
+def run_astar(start_dict, h, start_name):
 
   def get_f(state):
     return h(state) + state.get_g()
@@ -16,7 +16,7 @@ def run_astar(start_dict, h):
     state = q.get()
     popped += 1
     if state.is_solved():
-      log_result("astar_results.txt", start_state, state, popped, h)
+      log_result("astar_results.txt", start_state, start_name, state, popped, h)
       return
     moves = state.get_moves()
     print(state)
