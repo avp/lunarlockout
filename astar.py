@@ -24,7 +24,3 @@ def run_astar(start_dict, h, start_name):
     for move in moves:
       q.put(state.make_move(move))
   print("failed to solve")
-
-
-
-
