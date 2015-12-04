@@ -26,20 +26,21 @@ def free_moves_to_center(state):
 def free_moves2(state):
   positions = state.get_positions()
   min_free_moves = 2
+  adjs = [(1,2),(3,2),(2,1),(2,3)]
   for (key, (row, col)) in positions.iteritems():
     if key != 'X':
-      free_moves = free_moves_to((row, col), [(1,2),(3,2),(2,1),(2,3)])
+      free_moves = free_moves_to((row, col), adjs)
       min_free_moves = min(min_free_moves, min(free_moves))
-  return min_free_moves + free_moves_to_center(state)
+  return min_free_moves*10 + free_moves_to_center(state)
 
 def free_moves3(state):
   positions = state.get_positions()
   min_free_moves = 2
   min_pos = None
 
+  adjs = [(1,2),(3,2),(2,1),(2,3)]
   for (key, (row, col)) in positions.iteritems():
     if key != 'X':
-      adjs = [(1,2),(3,2),(2,1),(2,3)]
       free_moves = free_moves_to((row, col), adjs)
       cur_min = min(free_moves)
       if cur_min < min_free_moves:
@@ -47,9 +48,11 @@ def free_moves3(state):
         min_pos = adjs[free_moves.index(min_free_moves)]
 
   min_free_moves2 = 2
+  mx, my = min_pos
+  adjs = [(mx-1,my),(mx+1,my),(mx,my-1),(mx,my+1)]
   for (key, (row, col)) in positions.iteritems():
     if key != 'X':
-      free_moves = free_moves_to((row, col), [min_pos])
+      free_moves = free_moves_to((row, col), adjs)
       min_free_moves2 = min(min_free_moves2, min(free_moves))
 
   return min_free_moves + min_free_moves2 + free_moves_to_center(state)

@@ -46,3 +46,51 @@ Heuristic Used: free_moves3
 free_moves3
 Number of Popped States: 73
 ***************************
+***************************
+Start State: medium level
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 110
+***************************
+***************************
+Start State: medium level
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 144
+***************************
+***************************
+Start State: medium level
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Heuristic Used: free_moves2
+free_moves2
+Number of Popped States: 61
+***************************
+***************************
+Start State: medium level
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 87
+***************************
