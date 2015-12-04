@@ -55,4 +55,4 @@ def free_moves3(state):
       free_moves = free_moves_to((row, col), adjs)
       min_free_moves2 = min(min_free_moves2, min(free_moves))
 
-  return min_free_moves + min_free_moves2 + free_moves_to_center(state)
+  return min_free_moves2*100 + min_free_moves*10 + free_moves_to_center(state)
