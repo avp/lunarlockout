@@ -1,17 +1,53 @@
 ***************************
-Start State: medium level
-A-X--
------
--B--D   g = 0
------
--C---
+Start State: level 1
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 5
+***************************
+***************************
+Start State: level 1
+----D
+--A--
+-B---   g = 0
+---C-
+----X
 
 Heuristic Used: free_moves_to_center
 free_moves_to_center
-Number of Popped States: 110
+Number of Popped States: 7
 ***************************
 ***************************
-Start State: medium level
+Start State: level 1
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Heuristic Used: free_moves2
+free_moves2
+Number of Popped States: 7
+***************************
+***************************
+Start State: level 1
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 14
+***************************
+***************************
+Start State: level 16
 A-X--
 -----
 -B--D   g = 0
@@ -20,10 +56,22 @@ A-X--
 
 Heuristic Used: manhattan_distance
 manhattan_distance
-Number of Popped States: 144
+Number of Popped States: 58
 ***************************
 ***************************
-Start State: medium level
+Start State: level 16
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 79
+***************************
+***************************
+Start State: level 16
 A-X--
 -----
 -B--D   g = 0
@@ -32,10 +80,10 @@ A-X--
 
 Heuristic Used: free_moves2
 free_moves2
-Number of Popped States: 61
+Number of Popped States: 50
 ***************************
 ***************************
-Start State: medium level
+Start State: level 16
 A-X--
 -----
 -B--D   g = 0
@@ -44,5 +92,149 @@ A-X--
 
 Heuristic Used: free_moves3
 free_moves3
-Number of Popped States: 45
+Number of Popped States: 37
+***************************
+***************************
+Start State: level 21
+--X--
+--A--
+--B-C   g = 0
+D----
+---E-
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 23
+***************************
+***************************
+Start State: level 21
+--X--
+--A--
+--B-C   g = 0
+D----
+---E-
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 26
+***************************
+***************************
+Start State: level 21
+--X--
+--A--
+--B-C   g = 0
+D----
+---E-
+
+Heuristic Used: free_moves2
+free_moves2
+Number of Popped States: 26
+***************************
+***************************
+Start State: level 21
+--X--
+--A--
+--B-C   g = 0
+D----
+---E-
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 20
+***************************
+***************************
+Start State: level 39
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 3701
+***************************
+***************************
+Start State: level 39
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 4338
+***************************
+***************************
+Start State: level 39
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+
+Heuristic Used: free_moves2
+free_moves2
+Number of Popped States: 1758
+***************************
+***************************
+Start State: level 39
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 901
+***************************
+***************************
+Start State: level 40
+A-B-C
+-----
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 266
+***************************
+***************************
+Start State: level 40
+A-B-C
+-----
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 270
+***************************
+***************************
+Start State: level 40
+A-B-C
+-----
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: free_moves2
+free_moves2
+Number of Popped States: 159
+***************************
+***************************
+Start State: level 40
+A-B-C
+-----
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 150
 ***************************

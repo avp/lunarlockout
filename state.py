@@ -83,6 +83,11 @@ class State:
         return None
       (dr,dc) = DELTAS[dir]
       (r0,c0) = self.positions[pod]
+
+      # Make sure not blocked
+      if (r0 + dr, c0 + dc) in occupied:
+        return None
+
       for i in xrange(2, 5): # Start at 2 because not moving is pointless
         (r,c) = (r0 + i*dr, c0 + i*dc)
         if r < 0 or r > 4 or c < 0 or c > 4:
@@ -129,3 +134,10 @@ if __name__ == '__main__':
   print 'Moves:'
   states, moves = state2.get_path()
   print '\n'.join(map(str, states))
+  print "State 3:"
+
+  state3 = State({"X": (4,1), "A": (2,1), "B": (3,1), "C": (0,2), "D": (3,4)})
+  print state3.get_moves()
+
+
+

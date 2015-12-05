@@ -1,5 +1,5 @@
 ***************************
-Start State:
+Start State: level 1
 ----D
 --A--
 -B---   g = 0
@@ -9,62 +9,32 @@ Start State:
 Number of Popped States: 19
 ***************************
 ***************************
-Start State:
-----D
+Start State: level 16
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Number of Popped States: 627
+***************************
+***************************
+Start State: level 21
+--X--
 --A--
--B---   g = 0
----C-
-----X
+--B-C   g = 0
+D----
+---E-
 
-Number of Popped States: 19
+Number of Popped States: 59
 ***************************
 ***************************
-Start State:
+Start State: level 40
+A-B-C
+-----
+-----   g = 0
 ----D
---A--
--B---   g = 0
----C-
-----X
+-X---
 
-Number of Popped States: 19
-***************************
-***************************
-Start State:
-A-X--
------
--B--D   g = 0
------
--C---
-
-Number of Popped States: 949
-***************************
-***************************
-Start State: medium level
-A-X--
------
--B--D   g = 0
------
--C---
-
-Number of Popped States: 949
-***************************
-***************************
-Start State: medium level
-A-X--
------
--B--D   g = 0
------
--C---
-
-Number of Popped States: 949
-***************************
-***************************
-Start State: medium level
-A-X--
------
--B--D   g = 0
------
--C---
-
-Number of Popped States: 949
+Number of Popped States: 34189
 ***************************

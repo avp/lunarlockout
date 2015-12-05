@@ -13,8 +13,8 @@ class PriorityQueue(object):
           self.fVisited[new_state] = self.f(new_state)
     else:
       insertion_index = len(self.pq)
+      new_f = self.f(new_state)
       for index, state in enumerate(self.pq):
-        new_f = self.f(new_state)
         old_f = self.f(state)
         if (new_f < old_f):
           insertion_index = index
