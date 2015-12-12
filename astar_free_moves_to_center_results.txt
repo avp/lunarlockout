@@ -1,0 +1,324 @@
+***************************
+Start State: level 1
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 7
+***************************
+***************************
+Start State: level 15
+----B
+-A---
+----C   g = 0
+--D--
+----X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 51
+***************************
+***************************
+Start State: level 16
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 79
+***************************
+***************************
+Start State: level 17
+--B-C
+-----
+-A---   g = 0
+---D-
+-X---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 117
+***************************
+***************************
+Start State: level 18
+--X--
+-----
+-----   g = 0
+-----
+B-C-D
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 35
+***************************
+***************************
+Start State: level 19
+-B---
+--C--
+---D-   g = 0
+E----
+--F-X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 96
+***************************
+***************************
+Start State: level 20
+-B---
+----C
+D----   g = 0
+---X-
+-E---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 25
+***************************
+***************************
+Start State: level 21
+--X--
+--A--
+--B-C   g = 0
+D----
+---E-
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 26
+***************************
+***************************
+Start State: level 22
+-----
+B---C
+-----   g = 0
+---D-
+A---X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 126
+***************************
+***************************
+Start State: level 23
+-A---
+B--C-
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 45
+***************************
+***************************
+Start State: level 24
+-----
+---A-
+-B---   g = 0
+-----
+X--CD
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 46
+***************************
+***************************
+Start State: level 25
+-----
+A-BC-
+-----   g = 0
+-----
+-X--D
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 107
+***************************
+***************************
+Start State: level 26
+A-X--
+----C
+B----   g = 0
+---D-
+-----
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 57
+***************************
+***************************
+Start State: level 27
+-A--B
+-----
+C--E-   g = 0
+-----
+D---X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 724
+***************************
+***************************
+Start State: level 28
+-B--C
+-----
+----D   g = 0
+A----
+----X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 106
+***************************
+***************************
+Start State: level 29
+A-X-B
+-----
+-----   g = 0
+-----
+C---D
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 226
+***************************
+***************************
+Start State: level 30
+--X--
+A---B
+C----   g = 0
+-----
+-D-E-
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 119
+***************************
+***************************
+Start State: level 31
+A-B--
+----C
+D----   g = 0
+---X-
+-E---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 578
+***************************
+***************************
+Start State: level 32
+-A---
+----B
+-----   g = 0
+-----
+CXD--
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 68
+***************************
+***************************
+Start State: level 33
+AB---
+----C
+-----   g = 0
+D----
+---EX
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 50
+***************************
+***************************
+Start State: level 34
+--A-B
+-----
+C----   g = 0
+---E-
+D---X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 1034
+***************************
+***************************
+Start State: level 35
+A-X-B
+--E--
+-----   g = 0
+-----
+C---D
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 602
+***************************
+***************************
+Start State: level 36
+--X--
+A---B
+-----   g = 0
+C---D
+--E--
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 890
+***************************
+***************************
+Start State: level 37
+A--BC
+-----
+-----   g = 0
+D--X-
+-----
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 207
+***************************
+***************************
+Start State: level 38
+--D-C
+-----
+AB---   g = 0
+-----
+-X--E
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 244
+***************************
+***************************
+Start State: level 39
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 4338
+***************************
+***************************
+Start State: level 40
+A-B-C
+-----
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: free_moves_to_center
+free_moves_to_center
+Number of Popped States: 270
+***************************

@@ -1,0 +1,324 @@
+***************************
+Start State: level 1
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 14
+***************************
+***************************
+Start State: level 15
+----B
+-A---
+----C   g = 0
+--D--
+----X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 109
+***************************
+***************************
+Start State: level 16
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 37
+***************************
+***************************
+Start State: level 17
+--B-C
+-----
+-A---   g = 0
+---D-
+-X---
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 87
+***************************
+***************************
+Start State: level 18
+--X--
+-----
+-----   g = 0
+-----
+B-C-D
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 11
+***************************
+***************************
+Start State: level 19
+-B---
+--C--
+---D-   g = 0
+E----
+--F-X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 79
+***************************
+***************************
+Start State: level 20
+-B---
+----C
+D----   g = 0
+---X-
+-E---
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 21
+***************************
+***************************
+Start State: level 21
+--X--
+--A--
+--B-C   g = 0
+D----
+---E-
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 20
+***************************
+***************************
+Start State: level 22
+-----
+B---C
+-----   g = 0
+---D-
+A---X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 47
+***************************
+***************************
+Start State: level 23
+-A---
+B--C-
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 48
+***************************
+***************************
+Start State: level 24
+-----
+---A-
+-B---   g = 0
+-----
+X--CD
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 70
+***************************
+***************************
+Start State: level 25
+-----
+A-BC-
+-----   g = 0
+-----
+-X--D
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 99
+***************************
+***************************
+Start State: level 26
+A-X--
+----C
+B----   g = 0
+---D-
+-----
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 50
+***************************
+***************************
+Start State: level 27
+-A--B
+-----
+C--E-   g = 0
+-----
+D---X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 286
+***************************
+***************************
+Start State: level 28
+-B--C
+-----
+----D   g = 0
+A----
+----X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 107
+***************************
+***************************
+Start State: level 29
+A-X-B
+-----
+-----   g = 0
+-----
+C---D
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 122
+***************************
+***************************
+Start State: level 30
+--X--
+A---B
+C----   g = 0
+-----
+-D-E-
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 27
+***************************
+***************************
+Start State: level 31
+A-B--
+----C
+D----   g = 0
+---X-
+-E---
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 147
+***************************
+***************************
+Start State: level 32
+-A---
+----B
+-----   g = 0
+-----
+CXD--
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 39
+***************************
+***************************
+Start State: level 33
+AB---
+----C
+-----   g = 0
+D----
+---EX
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 15
+***************************
+***************************
+Start State: level 34
+--A-B
+-----
+C----   g = 0
+---E-
+D---X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 214
+***************************
+***************************
+Start State: level 35
+A-X-B
+--E--
+-----   g = 0
+-----
+C---D
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 456
+***************************
+***************************
+Start State: level 36
+--X--
+A---B
+-----   g = 0
+C---D
+--E--
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 987
+***************************
+***************************
+Start State: level 37
+A--BC
+-----
+-----   g = 0
+D--X-
+-----
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 128
+***************************
+***************************
+Start State: level 38
+--D-C
+-----
+AB---   g = 0
+-----
+-X--E
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 231
+***************************
+***************************
+Start State: level 39
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 901
+***************************
+***************************
+Start State: level 40
+A-B-C
+-----
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: free_moves3
+free_moves3
+Number of Popped States: 150
+***************************

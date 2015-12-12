@@ -1,0 +1,324 @@
+***************************
+Start State: level 1
+----D
+--A--
+-B---   g = 0
+---C-
+----X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 5
+***************************
+***************************
+Start State: level 15
+----B
+-A---
+----C   g = 0
+--D--
+----X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 38
+***************************
+***************************
+Start State: level 16
+A-X--
+-----
+-B--D   g = 0
+-----
+-C---
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 58
+***************************
+***************************
+Start State: level 17
+--B-C
+-----
+-A---   g = 0
+---D-
+-X---
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 106
+***************************
+***************************
+Start State: level 18
+--X--
+-----
+-----   g = 0
+-----
+B-C-D
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 32
+***************************
+***************************
+Start State: level 19
+-B---
+--C--
+---D-   g = 0
+E----
+--F-X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 84
+***************************
+***************************
+Start State: level 20
+-B---
+----C
+D----   g = 0
+---X-
+-E---
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 25
+***************************
+***************************
+Start State: level 21
+--X--
+--A--
+--B-C   g = 0
+D----
+---E-
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 23
+***************************
+***************************
+Start State: level 22
+-----
+B---C
+-----   g = 0
+---D-
+A---X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 75
+***************************
+***************************
+Start State: level 23
+-A---
+B--C-
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 33
+***************************
+***************************
+Start State: level 24
+-----
+---A-
+-B---   g = 0
+-----
+X--CD
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 30
+***************************
+***************************
+Start State: level 25
+-----
+A-BC-
+-----   g = 0
+-----
+-X--D
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 85
+***************************
+***************************
+Start State: level 26
+A-X--
+----C
+B----   g = 0
+---D-
+-----
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 54
+***************************
+***************************
+Start State: level 27
+-A--B
+-----
+C--E-   g = 0
+-----
+D---X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 386
+***************************
+***************************
+Start State: level 28
+-B--C
+-----
+----D   g = 0
+A----
+----X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 94
+***************************
+***************************
+Start State: level 29
+A-X-B
+-----
+-----   g = 0
+-----
+C---D
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 215
+***************************
+***************************
+Start State: level 30
+--X--
+A---B
+C----   g = 0
+-----
+-D-E-
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 89
+***************************
+***************************
+Start State: level 31
+A-B--
+----C
+D----   g = 0
+---X-
+-E---
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 578
+***************************
+***************************
+Start State: level 32
+-A---
+----B
+-----   g = 0
+-----
+CXD--
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 68
+***************************
+***************************
+Start State: level 33
+AB---
+----C
+-----   g = 0
+D----
+---EX
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 42
+***************************
+***************************
+Start State: level 34
+--A-B
+-----
+C----   g = 0
+---E-
+D---X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 854
+***************************
+***************************
+Start State: level 35
+A-X-B
+--E--
+-----   g = 0
+-----
+C---D
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 554
+***************************
+***************************
+Start State: level 36
+--X--
+A---B
+-----   g = 0
+C---D
+--E--
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 838
+***************************
+***************************
+Start State: level 37
+A--BC
+-----
+-----   g = 0
+D--X-
+-----
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 207
+***************************
+***************************
+Start State: level 38
+--D-C
+-----
+AB---   g = 0
+-----
+-X--E
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 223
+***************************
+***************************
+Start State: level 39
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 3701
+***************************
+***************************
+Start State: level 40
+A-B-C
+-----
+-----   g = 0
+----D
+-X---
+
+Heuristic Used: manhattan_distance
+manhattan_distance
+Number of Popped States: 266
+***************************
