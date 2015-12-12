@@ -9,6 +9,16 @@ Start State: level 1
 Number of Popped States: 19
 ***************************
 ***************************
+Start State: level 15
+----B
+-A---
+----C   g = 0
+--D--
+----X
+
+Number of Popped States: 741
+***************************
+***************************
 Start State: level 16
 A-X--
 -----
@@ -19,6 +29,46 @@ A-X--
 Number of Popped States: 627
 ***************************
 ***************************
+Start State: level 17
+--B-C
+-----
+-A---   g = 0
+---D-
+-X---
+
+Number of Popped States: 971
+***************************
+***************************
+Start State: level 18
+--X--
+-----
+-----   g = 0
+-----
+B-C-D
+
+Number of Popped States: 205
+***************************
+***************************
+Start State: level 19
+-B---
+--C--
+---D-   g = 0
+E----
+--F-X
+
+Number of Popped States: 1584
+***************************
+***************************
+Start State: level 20
+-B---
+----C
+D----   g = 0
+---X-
+-E---
+
+Number of Popped States: 71
+***************************
+***************************
 Start State: level 21
 --X--
 --A--
@@ -27,6 +77,187 @@ D----
 ---E-
 
 Number of Popped States: 59
+***************************
+***************************
+Start State: level 22
+-----
+B---C
+-----   g = 0
+---D-
+A---X
+
+Number of Popped States: 987
+***************************
+***************************
+Start State: level 23
+-A---
+B--C-
+-----   g = 0
+----D
+-X---
+
+Number of Popped States: 205
+***************************
+***************************
+Start State: level 24
+-----
+---A-
+-B---   g = 0
+-----
+X--CD
+
+Number of Popped States: 313
+***************************
+***************************
+Start State: level 25
+-----
+A-BC-
+-----   g = 0
+-----
+-X--D
+
+Number of Popped States: 1603
+***************************
+***************************
+Start State: level 26
+A-X--
+----C
+B----   g = 0
+---D-
+-----
+
+Number of Popped States: 163
+***************************
+***************************
+Start State: level 27
+-A--B
+-----
+C--E-   g = 0
+-----
+D---X
+
+Number of Popped States: 24844
+***************************
+***************************
+Start State: level 28
+-B--C
+-----
+----D   g = 0
+A----
+----X
+
+Number of Popped States: 1763
+***************************
+***************************
+Start State: level 29
+A-X-B
+-----
+-----   g = 0
+-----
+C---D
+
+Number of Popped States: 6139
+***************************
+***************************
+Start State: level 30
+--X--
+A---B
+C----   g = 0
+-----
+-D-E-
+
+Number of Popped States: 527
+***************************
+***************************
+Start State: level 31
+A-B--
+----C
+D----   g = 0
+---X-
+-E---
+
+Number of Popped States: 6099
+***************************
+***************************
+Start State: level 32
+-A---
+----B
+-----   g = 0
+-----
+CXD--
+
+Number of Popped States: 579
+***************************
+***************************
+Start State: level 33
+AB---
+----C
+-----   g = 0
+D----
+---EX
+
+Number of Popped States: 209
+***************************
+***************************
+Start State: level 34
+--A-B
+-----
+C----   g = 0
+---E-
+D---X
+
+Number of Popped States: 61531
+***************************
+***************************
+Start State: level 35
+A-X-B
+--E--
+-----   g = 0
+-----
+C---D
+
+Number of Popped States: 33113
+***************************
+***************************
+Start State: level 36
+--X--
+A---B
+-----   g = 0
+C---D
+--E--
+
+Number of Popped States: 36929
+***************************
+***************************
+Start State: level 37
+A--BC
+-----
+-----   g = 0
+D--X-
+-----
+
+Number of Popped States: 5951
+***************************
+***************************
+Start State: level 38
+--D-C
+-----
+AB---   g = 0
+-----
+-X--E
+
+Number of Popped States: 3123
+***************************
+***************************
+Start State: level 39
+A-C-E
+-----
+B----   g = 0
+-----
+D---X
+
+Had to end early due to taking excessive time, popped states is lower than actual
+Number of Popped States: 3314187
 ***************************
 ***************************
 Start State: level 40

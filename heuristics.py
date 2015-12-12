@@ -35,7 +35,7 @@ def free_moves2(state):
 
 def free_moves3(state):
   positions = state.get_positions()
-  min_free_moves = 2
+  min_free_moves = 3
   min_pos = None
 
   adjs = [(1,2),(3,2),(2,1),(2,3)]
@@ -54,5 +54,4 @@ def free_moves3(state):
     if key != 'X':
       free_moves = free_moves_to((row, col), adjs)
       min_free_moves2 = min(min_free_moves2, min(free_moves))
-
   return min_free_moves2*100 + min_free_moves*10 + free_moves_to_center(state)
